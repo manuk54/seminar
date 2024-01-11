@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.8)  10 JAN 2024 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.8)  11 JAN 2024 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -280,11 +280,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count299
 \l__lipsum_a_int=\count300
 \l__lipsum_b_int=\count301
- (D:\Soft\MikTex\tex/latex/lipsum\lipsum.ltd.tex)) (hausarbeit.aux
-
-LaTeX Warning: Label `Write Transaction' multiply defined.
-
-)
+ (D:\Soft\MikTex\tex/latex/lipsum\lipsum.ltd.tex)) (hausarbeit.aux)
 \openout1 = `hausarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -395,7 +391,7 @@ Overfull \hbox (6.17336pt too wide) in paragraph at lines 92--93
  []
 
 [7]
-<./pics/ddm.png, id=181, 312.513pt x 485.085pt>
+<./pics/ddm.png, id=176, 312.513pt x 485.085pt>
 File: ./pics/ddm.png Graphic file (type png)
 <use ./pics/ddm.png>
 Package pdftex.def Info: ./pics/ddm.png  used on input line 119.
@@ -421,32 +417,27 @@ Overfull \hbox (8.82191pt too wide) in paragraph at lines 128--129
  []
 
 [9 <./pics/ddm.png>]
-<./pics/read.png, id=195, 827.382pt x 533.046pt>
+<./pics/read.png, id=190, 827.382pt x 533.046pt>
 File: ./pics/read.png Graphic file (type png)
 <use ./pics/read.png>
 Package pdftex.def Info: ./pics/read.png  used on input line 143.
 (pdftex.def)             Requested size: 413.68999pt x 266.52234pt.
  [10 <./pics/read.png>]
-<./pics/write.png, id=203, 837.456pt x 375.366pt>
+<./pics/write.png, id=198, 837.456pt x 375.366pt>
 File: ./pics/write.png Graphic file (type png)
 <use ./pics/write.png>
 Package pdftex.def Info: ./pics/write.png  used on input line 153.
 (pdftex.def)             Requested size: 418.72697pt x 187.68254pt.
-File: ./pics/write.png Graphic file (type png)
-<use ./pics/write.png>
-Package pdftex.def Info: ./pics/write.png  used on input line 162.
+<./pics/invoke.png, id=199, 837.456pt x 375.366pt>
+File: ./pics/invoke.png Graphic file (type png)
+<use ./pics/invoke.png>
+Package pdftex.def Info: ./pics/invoke.png  used on input line 162.
 (pdftex.def)             Requested size: 418.72697pt x 187.68254pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./pics/write.png>]
-<./pics/invoke.png, id=210, 837.456pt x 375.366pt>
-File: ./pics/invoke.png Graphic file (type png)
-<use ./pics/invoke.png>
-Package pdftex.def Info: ./pics/invoke.png  used on input line 171.
-(pdftex.def)             Requested size: 418.72697pt x 187.68254pt.
- [12 <./pics/invoke.png>] (hausarbeit.lof)
+[11 <./pics/write.png>] [12 <./pics/invoke.png>] (hausarbeit.lof)
 \tf@lof=\write5
 \openout5 = `hausarbeit.lof'.
 
@@ -455,25 +446,21 @@ Package pdftex.def Info: ./pics/invoke.png  used on input line 171.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `hausarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: EAB582311E5E175FEFB431783CD23CAC;3943.
+(rerunfilecheck)             Checksum: 1AE78723246252FD4C6A6D560C4A7DC5;3782.
  ) 
 Here is how much of TeX's memory you used:
- 12503 strings out of 475247
- 203853 string characters out of 5771863
- 1932785 words of memory out of 5000000
- 33825 multiletter control sequences out of 15000+600000
+ 12500 strings out of 475247
+ 203797 string characters out of 5771863
+ 1931785 words of memory out of 5000000
+ 33824 multiletter control sequences out of 15000+600000
  562829 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,8n,93p,1140b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\manuk\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Soft/MikTex/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on hausarbeit.pdf (13 pages, 616848 bytes).
+Output written on hausarbeit.pdf (13 pages, 615399 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

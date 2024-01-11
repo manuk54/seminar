@@ -159,15 +159,6 @@
 \subsubsection{Invoke Transaction}
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=0.5]{write}
-  \caption{Write Transaction}
-  \label{Write Transaction}
-\end{figure}
-\par Die Write-Transaktion kann entweder als Timed oder Untimed ausgeführt werden. Bei einer Timed Transaction wird zuerst eine Timed Request gesendet und das Response wird erst nach einer Zeitüberschreitung (Timeout) in Millisekunden gesendet. Das Timed Request ist ein Flag, das die Art der Transaktion angibt. Der Write Request ist eine Liste von Daten und Pfaden zu den Elementen, die geändert werden sollen. Beim Groupcast muss das Flag Suppress Response gesetzt sein.  Der Write Response ist eine Liste von Pfaden und enthält auch Fehlermeldungen für jeden Write Request.
-
-\subsubsection{Invoke Transaction}
-\begin{figure}[h]
-  \centering
   \includegraphics[scale=0.5]{invoke}
   \caption{Invoke Transaction}
   \label{Invoke Transaction}
