@@ -1,0 +1,27 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einführung in IoT}{2}{section.1}%
+\contentsline {section}{\numberline {2}IoT Software Layers}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Device-Layer (Geräte-Schicht)}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Kommunikation-Layer (Kommunikationsschicht)}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}KNX}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}MQTT}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Cloud-Layer (Cloud-Schicht)}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}AWS IoT}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Cisco IoT Cloud Connect}{5}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Google Cloud IoT}{5}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Application-Layer (Anwendungsschicht)}{6}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Matter}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Eigenschaften}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Funktionsweise}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Device Data Model}{8}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Device Types}{8}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Nodes}{8}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Endpoints}{8}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Commands und Events}{9}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Cluster und Attributes}{9}{subsubsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.4}Interaction Model}{9}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Read Transaktion}{10}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Write Transaction}{11}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Invoke Transaction}{11}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Invoke Transaction}{12}{subsubsection.3.4.4}%
+\contentsline {chapter}{Abbildungsverzeichnis}{13}{figure.caption.5}%
