@@ -8,6 +8,7 @@
 \usepackage{blindtext}
 \usepackage{hyperref}
 \usepackage{tabularx}
+\usepackage[bottom]{footmisc}
 
 \captionsetup{justification=raggedright,singlelinecheck=false}
 \geometry{
@@ -165,11 +166,30 @@
 \end{figure}
 \par Die Invoke-Transaktionen sind für die Ausführung von Befehlen zuständig. Ähnlich wie bei den Write-Transaktionen gibt es Timed- und Untimed-Invoke-Transaktionen. Der Invoke-Request enthält eine Liste von Pfaden zu den Commands-Clustern und erforderlichen Argumenten für die Commands. Die Argumente werden als Command Fields bezeichnet. Interaction ID wird verwendet, um Requests an Responses anzupassen. Invoke Response enthält eine Liste der Responses der ausgeführten Kommandos und ggf. Fehlermeldungen. Wie bei der Write-Transaktion muss das Flag Suppress Response beim Groupcast gesetzt sein. Timed Request Action, Invoke Request Action und Invoke Response Action sind Unicast-only-Aktionen.
 
+\subsubsection{Commissioning}
+\par Das Commissioning im Matter-Protokoll ist ein Prozess, bei dem neuen Geräten Einstellungen zugewiesen werden. Dabei agiert ein oder mehrere Geräte als Commissioner. Das neue Gerät wird als Commissionee bezeichnet. Die Sequenz des Commissioning folgt folgender Abfolge:
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.5]{com}
+  \caption{Commissioning}
+  \label{Commissioning}
+\end{figure}
+\begin{enumerate}
+  \item Um mit dem Commissioning zu beginnen, muss sich der Commissionee bewerben. Die Bewerbung erfolgt über eine der drei Commissionable Discovery Methoden, die im nächsten Abschnitt erklärt sind.
+  \item Nachdem der Commissioner die Bewerbung erkennt, verwendet er den Passcode aus dem Onboarding-Payload. PASE\footnote[8]{ Passcode Authenticated Session Establishment} ist eine Methode für die Einrichtung der Schlüssel und die Kommunikation. Der Commissioner richtet dabei fail-safe ein, was die Rückstellung des neuen Gerätes zu den Standardeinstellungen bei einem Fehler ermöglicht.
+  \item Danach liest der Commissioner alle Informationen aus Cluster von Commissionee. 
+  \item Mit ‚SetRegulatoryConfig‘ Command übergibt der Commissioner rechtliche Daten an Commissionee. Das kann Standort, Landeskode oder andere Standardisierungen sein.
+  \item Um festzustellen, ob der Commissionee zertifiziert wurde und ein Matter-Gerät ist, wird die Attestation benötigt. Dabei zieht der Commissioner DAC\footnote[9]{Device Attestation Certificate}und PAI\footnote[10]{Product Attestation Intermediate } von Commissionee aus. Diese Zertifikate enthalten Vendor-ID, Produkt-ID und APK\footnote[11]{Attestation Public Key}. Nach Erhalt der Zertifikate stellt der Commissioner eine Anfrage, die mit APK unterschrieben werden soll und nutzt diese, um Authentizität von Commissionee zu bestätigen. Anschließend sendet der Commissioner eine CSR\footnote[12]{Certificate Signing Request} an dem Commissionee. Der Commissionee erstellt einen Schlüssel, der später bei CASE verwendet wird, und gibt die CSR an den Commissioner zurück.
+  \item Der Commissioner verwendet Informationen aus CSR und übergibt diese an ADM\footnote[13]{ Administrative Domain Manager}, um einen NOC\footnote[14]{Node Operational Certificate} zu generieren. Zunächst installiert der Commissioner das Root-Zertifikat mit dem Kommando ‚AddTrustedRootCertReq‘ und anschließend das NOC mit dem Kommando ‚AddNOC‘.
+  \item In diesem Schritt wird das Netzwerk für den Commissionee eingerichtet. Der Commissioner nutzt dabei folgende Befehle: ‚ScanNetworks‘, ‚AddOrUpdateWifiNetwork‘ und ‚ConnectNetwork‘. Wenn eine Ethernet-Verbindung besteht, entfällt dieser Schritt, da das Netzwerk bereits konfiguriert sein sollte. 
+  \item Nachdem der Commissionee mit dem Netzwerk verbunden ist, sucht der Commissioner nach dem Gerät im Netzwerk und teilt anderen Geräten die IP-Adresse und Port des neuen Geräts.
+  \item Der Commissioner initialisiert CASE\footnote[15]{ Certificate Authenticated Session Establishment}. Dabei tauschen der Commissioner und der Commissionee die Betriebszertifikate aus. Am Ende wird noch das Command ‚CommissioningComplete‘ gesendet und der fail-safe Timer wird automatisch gelöscht. Nach dem Commissioning ist das neue Gerät ein Node im Netzwerk
+\end{enumerate}
+
 
 \pagebreak
 
 \listoffigures
 \addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
-
 
 \end{document}

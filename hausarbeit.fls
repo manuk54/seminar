@@ -118,6 +118,8 @@ INPUT D:\Soft\MikTex\tex\latex\tools\tabularx.sty
 INPUT D:\Soft\MikTex\tex\latex\tools\tabularx.sty
 INPUT D:\Soft\MikTex\tex\latex\tools\array.sty
 INPUT D:\Soft\MikTex\tex\latex\tools\array.sty
+INPUT D:\Soft\MikTex\tex\latex\footmisc\footmisc.sty
+INPUT D:\Soft\MikTex\tex\latex\footmisc\footmisc.sty
 INPUT D:\Soft\MikTex\tex\latex\lipsum\lipsum.sty
 INPUT D:\Soft\MikTex\tex\latex\lipsum\lipsum.sty
 INPUT D:\Soft\MikTex\tex\latex\l3packages\l3keys2e\l3keys2e.sty
@@ -192,6 +194,12 @@ INPUT .\pics\invoke.png
 INPUT .\pics\invoke.png
 INPUT .\pics\invoke.png
 INPUT .\pics\invoke.png
+INPUT .\pics\com.png
+INPUT .\pics\com.png
+INPUT .\pics\com.png
+INPUT .\pics\com.png
+INPUT .\pics\com.png
+INPUT .\pics\com.png
 INPUT .\hausarbeit.lof
 INPUT .\hausarbeit.lof
 INPUT hausarbeit.lof

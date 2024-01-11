@@ -23,4 +23,5 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Read Transaktion}{10}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Write Transaction}{11}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Invoke Transaction}{11}{subsubsection.3.4.3}%
-\contentsline {chapter}{Abbildungsverzeichnis}{13}{figure.caption.4}%
+\contentsline {subsubsection}{\numberline {3.4.4}Commissioning}{12}{subsubsection.3.4.4}%
+\contentsline {chapter}{Abbildungsverzeichnis}{14}{Item.9}%
