@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.14)  14 JAN 2024 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.14)  14 JAN 2024 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -277,52 +277,281 @@ Package footmisc Info: Declaring symbol style wiley on input line 713.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
 Package footmisc Info: Declaring symbol style lamport* on input line 744.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
-) (E:\Soft\MiKTeX\tex/latex/lipsum\lipsum.sty (E:\Soft\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (E:\Soft\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (E:\Soft\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (E:\Soft\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count300
+ (E:\Soft\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (E:\Soft\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count301
+\c@listtotal=\count302
+\c@listcount=\count303
+\c@liststart=\count304
+\c@liststop=\count305
+\c@citecount=\count306
+\c@citetotal=\count307
+\c@multicitecount=\count308
+\c@multicitetotal=\count309
+\c@instcount=\count310
+\c@maxnames=\count311
+\c@minnames=\count312
+\c@maxitems=\count313
+\c@minitems=\count314
+\c@citecounter=\count315
+\c@maxcitecounter=\count316
+\c@savedcitecounter=\count317
+\c@uniquelist=\count318
+\c@uniquename=\count319
+\c@refsection=\count320
+\c@refsegment=\count321
+\c@maxextratitle=\count322
+\c@maxextratitleyear=\count323
+\c@maxextraname=\count324
+\c@maxextradate=\count325
+\c@maxextraalpha=\count326
+\c@abbrvpenalty=\count327
+\c@highnamepenalty=\count328
+\c@lownamepenalty=\count329
+\c@maxparens=\count330
+\c@parenlevel=\count331
+\blx@tempcnta=\count332
+\blx@tempcntb=\count333
+\blx@tempcntc=\count334
+\c@blx@maxsection=\count335
+\blx@maxsegment@0=\count336
+\blx@notetype=\count337
+\blx@parenlevel@text=\count338
+\blx@parenlevel@foot=\count339
+\blx@sectionciteorder@0=\count340
+\blx@sectionciteorderinternal@0=\count341
+\blx@entrysetcounter=\count342
+\blx@biblioinstance=\count343
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count344
+\c@maxcomprange=\count345
+\c@mincompwidth=\count346
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count347
+\c@savedafterword=\count348
+\c@annotator=\count349
+\c@savedannotator=\count350
+\c@author=\count351
+\c@savedauthor=\count352
+\c@bookauthor=\count353
+\c@savedbookauthor=\count354
+\c@commentator=\count355
+\c@savedcommentator=\count356
+\c@editor=\count357
+\c@savededitor=\count358
+\c@editora=\count359
+\c@savededitora=\count360
+\c@editorb=\count361
+\c@savededitorb=\count362
+\c@editorc=\count363
+\c@savededitorc=\count364
+\c@foreword=\count365
+\c@savedforeword=\count366
+\c@holder=\count367
+\c@savedholder=\count368
+\c@introduction=\count369
+\c@savedintroduction=\count370
+\c@namea=\count371
+\c@savednamea=\count372
+\c@nameb=\count373
+\c@savednameb=\count374
+\c@namec=\count375
+\c@savednamec=\count376
+\c@translator=\count377
+\c@savedtranslator=\count378
+\c@shortauthor=\count379
+\c@savedshortauthor=\count380
+\c@shorteditor=\count381
+\c@savedshorteditor=\count382
+\c@labelname=\count383
+\c@savedlabelname=\count384
+\c@institution=\count385
+\c@savedinstitution=\count386
+\c@lista=\count387
+\c@savedlista=\count388
+\c@listb=\count389
+\c@savedlistb=\count390
+\c@listc=\count391
+\c@savedlistc=\count392
+\c@listd=\count393
+\c@savedlistd=\count394
+\c@liste=\count395
+\c@savedliste=\count396
+\c@listf=\count397
+\c@savedlistf=\count398
+\c@location=\count399
+\c@savedlocation=\count400
+\c@organization=\count401
+\c@savedorganization=\count402
+\c@origlocation=\count403
+\c@savedoriglocation=\count404
+\c@origpublisher=\count405
+\c@savedorigpublisher=\count406
+\c@publisher=\count407
+\c@savedpublisher=\count408
+\c@language=\count409
+\c@savedlanguage=\count410
+\c@origlanguage=\count411
+\c@savedoriglanguage=\count412
+\c@pageref=\count413
+\c@savedpageref=\count414
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count415
+\c@textcitetotal=\count416
+\c@textcitemaxnames=\count417
+\c@biburlbigbreakpenalty=\count418
+\c@biburlbreakpenalty=\count419
+\c@biburlnumpenalty=\count420
+\c@biburlucpenalty=\count421
+\c@biburllcpenalty=\count422
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count423
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count424
+\c@bbx:relatedtotal=\count425
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (E:\Soft\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-01-04 L3 programming layer (loader) 
  (E:\Soft\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
+\l__color_backend_stack_int=\count426
 \l__pdf_internal_box=\box55
 ))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-01-04 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (E:\Soft\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (E:\Soft\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (E:\Soft\MiKTeX\tex/latex/lipsum\lipsum.sty (E:\Soft\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count301
-\l__lipsum_a_int=\count302
-\l__lipsum_b_int=\count303
- (E:\Soft\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (hausarbeit.aux)
+\g__lipsum_par_int=\count427
+\l__lipsum_a_int=\count428
+\l__lipsum_b_int=\count429
+ (E:\Soft\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count430
+\@quotereset=\count431
+(hausarbeit.aux)
 \openout1 = `hausarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
  (E:\Soft\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
+\scratchcounter=\count432
 \scratchdimen=\dimen180
 \scratchbox=\box56
-\nofMPsegments=\count305
-\nofMParguments=\count306
+\nofMPsegments=\count433
+\nofMParguments=\count434
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count307
+\MPscratchCnt=\count435
 \MPscratchDim=\dimen181
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
+\MPnumerator=\count436
+\makeMPintoPDFobject=\count437
 \everyMPtoPDFconversion=\toks25
 ) (E:\Soft\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -367,11 +596,35 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 33.
 (hausarbeit.out) (hausarbeit.out)
-\@outlinefile=\write3
-\openout3 = `hausarbeit.out'.
+\@outlinefile=\write4
+\openout4 = `hausarbeit.out'.
 
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
+File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (E:\Soft\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `hausarbeit.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'hausarbeit.bbl' found.
+ (hausarbeit.bbl)
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
  (hausarbeit.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
@@ -380,113 +633,116 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
 )
-\tf@toc=\write4
-\openout4 = `hausarbeit.toc'.
+\tf@toc=\write5
+\openout5 = `hausarbeit.toc'.
 
  [1
 
 {C:/Users/manuk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (9.53996pt too wide) in paragraph at lines 41--42
+Overfull \hbox (9.53996pt too wide) in paragraph at lines 45--46
 \OT1/cmr/m/n/12 un-terst[]utzt den Tr[]ager im All-tag, in-dem sie Ge-sund-heits-emp-feh-lun-gen gibt und die t[]aglichen
  []
 
 [2] [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
+(Font)              <5> on input line 63.
  [4] [5] [6]
-Overfull \hbox (6.17336pt too wide) in paragraph at lines 93--94
+Overfull \hbox (6.17336pt too wide) in paragraph at lines 97--98
 []\OT1/cmr/m/n/12 An der Ger[]ate-Schicht ver-wen-det Mat-ter ein Thread-Protokoll.
  []
 
 [7]
-<./pics/ddm.png, id=181, 312.513pt x 485.085pt>
+<./pics/ddm.png, id=185, 312.513pt x 485.085pt>
 File: ./pics/ddm.png Graphic file (type png)
 <use ./pics/ddm.png>
-Package pdftex.def Info: ./pics/ddm.png  used on input line 120.
+Package pdftex.def Info: ./pics/ddm.png  used on input line 124.
 (pdftex.def)             Requested size: 156.25612pt x 242.5419pt.
  [8]
-Underfull \hbox (badness 1024) in paragraph at lines 124--125
+Underfull \hbox (badness 1024) in paragraph at lines 128--129
 \OT1/cmr/m/n/12 wei-se Smart-pho-nes oder Kli-ma-an-la-gen. Des-halb
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 127--128
+Underfull \hbox (badness 3803) in paragraph at lines 131--132
 []\OT1/cmr/m/n/12 Events sind auch in Clus-tern ge-spei-chert.
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 127--128
+Underfull \hbox (badness 5388) in paragraph at lines 131--132
 \OT1/cmr/m/n/12 chern, spei-chern die Events die ver-gan-ge-nen
  []
 
 
-Overfull \hbox (8.82191pt too wide) in paragraph at lines 129--130
+Overfull \hbox (8.82191pt too wide) in paragraph at lines 133--134
 \OT1/cmr/m/n/12 enth[]alt ein oder meh-re-re Clus-ter, wel-che spe-zi-fi-sche In-for-ma-tio-nen wie Ger[]ateinformationen,
  []
 
 [9 <./pics/ddm.png>]
-<./pics/read.png, id=195, 827.382pt x 533.046pt>
+<./pics/read.png, id=199, 827.382pt x 533.046pt>
 File: ./pics/read.png Graphic file (type png)
 <use ./pics/read.png>
-Package pdftex.def Info: ./pics/read.png  used on input line 144.
+Package pdftex.def Info: ./pics/read.png  used on input line 148.
 (pdftex.def)             Requested size: 413.68999pt x 266.52234pt.
  [10 <./pics/read.png>]
-<./pics/write.png, id=203, 837.456pt x 375.366pt>
+<./pics/write.png, id=207, 837.456pt x 375.366pt>
 File: ./pics/write.png Graphic file (type png)
 <use ./pics/write.png>
-Package pdftex.def Info: ./pics/write.png  used on input line 154.
+Package pdftex.def Info: ./pics/write.png  used on input line 158.
 (pdftex.def)             Requested size: 418.72697pt x 187.68254pt.
-<./pics/invoke.png, id=204, 837.456pt x 375.366pt>
+<./pics/invoke.png, id=208, 837.456pt x 375.366pt>
 File: ./pics/invoke.png Graphic file (type png)
 <use ./pics/invoke.png>
-Package pdftex.def Info: ./pics/invoke.png  used on input line 163.
+Package pdftex.def Info: ./pics/invoke.png  used on input line 167.
 (pdftex.def)             Requested size: 418.72697pt x 187.68254pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./pics/write.png>]
-<./pics/com.png, id=211, 869.649pt x 321.711pt>
+<./pics/com.png, id=215, 869.649pt x 321.711pt>
 File: ./pics/com.png Graphic file (type png)
 <use ./pics/com.png>
-Package pdftex.def Info: ./pics/com.png  used on input line 173.
+Package pdftex.def Info: ./pics/com.png  used on input line 177.
 (pdftex.def)             Requested size: 434.82343pt x 160.8551pt.
  [12 <./pics/invoke.png> <./pics/com.png>]
-Overfull \hbox (0.7655pt too wide) in paragraph at lines 184--185
+Overfull \hbox (0.7655pt too wide) in paragraph at lines 188--189
 \OT1/cmr/m/n/12 mis-sio-ner nutzt da-bei fol-gen-de Be-feh-le: []Scan-Net-works`, []Ad-dOrUp-da-te-Wi-fi-Net-work`
  []
 
 
-Overfull \hbox (12.27557pt too wide) in paragraph at lines 184--185
+Overfull \hbox (12.27557pt too wide) in paragraph at lines 188--189
 \OT1/cmr/m/n/12 und []Connect-Net-work`. Wenn ei-ne Ethernet-Verbindung be-steht, entf[]allt die-ser Schritt,
  []
 
-[13] (hausarbeit.lof)
-\tf@lof=\write5
-\openout5 = `hausarbeit.lof'.
+[13] [14] (hausarbeit.lof)
+\tf@lof=\write6
+\openout6 = `hausarbeit.lof'.
 
- [14] (hausarbeit.aux)
+ [15] (hausarbeit.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `hausarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: CB55BD8F666F42643C6C23BEA330C4C7;3905.
+(rerunfilecheck)             Checksum: B717BCDDF6A41BDDA20EA44FE89EA601;4057.
+Package logreq Info: Writing requests to 'hausarbeit.run.xml'.
+\openout1 = `hausarbeit.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 12688 strings out of 474485
- 207058 string characters out of 5757804
- 1939528 words of memory out of 5000000
- 34750 multiletter control sequences out of 15000+600000
+ 19701 strings out of 474485
+ 347670 string characters out of 5757804
+ 1940528 words of memory out of 5000000
+ 41702 multiletter control sequences out of 15000+600000
  562829 words of font info for 52 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 79i,8n,93p,1118b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1143 hyphenation exceptions out of 8191
+ 75i,8n,81p,1160b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\manuk\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><E:/Soft/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Soft/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Soft/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Soft/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Soft/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Soft/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on hausarbeit.pdf (14 pages, 803747 bytes).
+Output written on hausarbeit.pdf (15 pages, 805291 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
